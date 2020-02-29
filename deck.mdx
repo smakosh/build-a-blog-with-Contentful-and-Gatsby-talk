@@ -81,13 +81,26 @@ But if data already exists and is not fetched at run time, then when does it get
 
 ---
 
+import Box from './Box.js'
+import GatsbyLogo from './images/gatsby.svg'
+
 ## Meet Gatsby js
+
+<Box>
+  <img src={GatsbyLogo} alt="Gatsby logo" />
+</Box>
+
+---
 
 A modern web framework built with React, GraphQL and Webpack
 
 It is known for it's great SSG feature which lets you do SSR (Server Side rendering) during build time
 
+---
+
 This lets us fetch content from Contentful during build time, create the pages for each content
+
+---
 
 > You can build dynamic apps with it and fetch content from Contentful using their API too
 
@@ -122,7 +135,15 @@ From [JAMStack.org](https://jamstack.org)
 
 ---
 
+import ContentfulLogo from './images/contentful.png'
+
 ## Contentful - Distribute Content to any platform
+
+<Box>
+  <img style={{width: 256}} src={ContentfulLogo} alt="Contentful logo" />
+</Box>
+
+---
 
 A modern CMS that acts like a content infrastructure which can be used as a headless CMS
 
